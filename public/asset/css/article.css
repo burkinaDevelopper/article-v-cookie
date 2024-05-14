@@ -1,0 +1,129 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style des articles */
+.section-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-prod {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.article:last-child {
+    margin-right: 0;
+}
+
+.article h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.favorite-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.favorite-button:hover {
+    background-color: #45a049;
+}
+
+.article a {
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.article a:hover {
+    text-decoration: underline; /* Soulignement du lien au survol */
+}
+
+/* Style des résultats de recherche */
+.search-results {
+    margin-top: 20px;
+}
+
+.no-results {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    color: #333;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Bordure arrondie */
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #007bff; /* Couleur bleue au survol */
+    color: #fff;
+}
+
+.pagination a:first-child {
+    margin-left: 0;
+}
+
+.pagination a:last-child {
+    margin-right: 0;
+}
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+  text-decoration: none;
+}
